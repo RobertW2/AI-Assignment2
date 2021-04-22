@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/3bf6da335fa91fd9/Documents/GitHub/AI-Assignment2/AI Assignment 2
+C:/Users/3bf6da335fa91fd9.AD/Documents/GitHub/AI-Assignment2/AI Assignment 2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61111
-Successfully changed project path to: C:/Users/3bf6da335fa91fd9/Documents/GitHub/AI-Assignment2/AI Assignment 2
-C:/Users/3bf6da335fa91fd9/Documents/GitHub/AI-Assignment2/AI Assignment 2
+52627
+Successfully changed project path to: C:/Users/3bf6da335fa91fd9.AD/Documents/GitHub/AI-Assignment2/AI Assignment 2
+C:/Users/3bf6da335fa91fd9.AD/Documents/GitHub/AI-Assignment2/AI Assignment 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 70.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/3bf6da335fa91fd9/Documents/GitHub/AI-Assignment2/AI Assignment 2/Assets
+[Subsystems] Discovering subsystems at path C:/Users/3bf6da335fa91fd9.AD/Documents/GitHub/AI-Assignment2/AI Assignment 2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -35,22 +35,337 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001283 seconds.
+Registered in 0.001636 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 20.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.066 seconds
+- Completed reload, in  1.151 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000570 seconds.
+Registered in 0.000985 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.3 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1549.
+Total: 1.518000 ms (FindLiveObjects: 0.117400 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.281900 ms  DeleteObjects: 0.080300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/New Material.mat
+  artifactKey: Guid(5086bfdce1508ce4880d6f282de60ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(5086bfdce1508ce4880d6f282de60ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ae5fa762bddc4d3caead9799437380') in 0.355233 seconds
+  Import took 0.357167 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.4 MB.
+System memory in use after: 38.5 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 5.069200 ms (FindLiveObjects: 0.141400 ms CreateObjectMapping: 0.089900 ms MarkObjects: 4.771400 ms  DeleteObjects: 0.064900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.142156 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(af96f722da4b4614fb9c973896e2218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(af96f722da4b4614fb9c973896e2218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9758bc2d1332551c305341f9026d1521') in 0.006556 seconds
+  Import took 0.008575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010261 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(af96f722da4b4614fb9c973896e2218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(af96f722da4b4614fb9c973896e2218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9758bc2d1332551c305341f9026d1521') in 0.002346 seconds
+  Import took 0.005550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.314428 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2025348eadb9a5fcd66887323c0f9b') in 0.010301 seconds
+  Import took 0.012228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 316.020035 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(647e5fcfe5d4be24b968beb1fa7d325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(647e5fcfe5d4be24b968beb1fa7d325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51054c4fa9fcd97efdaef90b289297c4') in 0.011650 seconds
+  Import took 0.014032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.850050 seconds.
+  path: Assets/NavMesh
+  artifactKey: Guid(31ad4df2c32876b4b8496e72b0743f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh using Guid(31ad4df2c32876b4b8496e72b0743f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d58f94850e4cefcd0f12b14bc937bd3') in 0.009409 seconds
+  Import took 0.012062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.962660 seconds.
+  path: Assets/NavMesh/NavMeshComponents
+  artifactKey: Guid(90490f1de0cc846679dcec6f99663653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents using Guid(90490f1de0cc846679dcec6f99663653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd59d5eb3647b94df08a637f1ff27615') in 0.009198 seconds
+  Import took 0.010973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.767007 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Scripts
+  artifactKey: Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Scripts using Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b15752f28aca38d6bc21563a7296c6') in 0.007648 seconds
+  Import took 0.009855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056610 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Scripts/NavMeshComponents.asmdef
+  artifactKey: Guid(8c4dd21966739024fbd72155091d199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Scripts/NavMeshComponents.asmdef using Guid(8c4dd21966739024fbd72155091d199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea73f5aa166162d6086c635bec43a4d') in 0.006190 seconds
+  Import took 0.007905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.554488 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Scripts/NavMeshLink.cs
+  artifactKey: Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Scripts/NavMeshLink.cs using Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ee517850d8de1298193443ac14f9bf') in 0.014746 seconds
+  Import took 0.018589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001325 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Scripts/NavMeshLink.cs
+  artifactKey: Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Scripts/NavMeshLink.cs using Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ee517850d8de1298193443ac14f9bf') in 0.003694 seconds
+  Import took 0.005702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.016051 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Scripts/NavMeshModifier.cs
+  artifactKey: Guid(1e3fdca004f2d45fe8abbed571a8abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Scripts/NavMeshModifier.cs using Guid(1e3fdca004f2d45fe8abbed571a8abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3369f4ab5822481e6c70fe8012d31f09') in 0.008046 seconds
+  Import took 0.010253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Scripts/NavMeshModifier.cs
+  artifactKey: Guid(1e3fdca004f2d45fe8abbed571a8abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Scripts/NavMeshModifier.cs using Guid(1e3fdca004f2d45fe8abbed571a8abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3369f4ab5822481e6c70fe8012d31f09') in 0.002148 seconds
+  Import took 0.005319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.632077 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Scripts/NavMeshModifierVolume.cs
+  artifactKey: Guid(35e95dc5ff2b64380880dd7ac5922847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Scripts/NavMeshModifierVolume.cs using Guid(35e95dc5ff2b64380880dd7ac5922847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5325199ace3b687f5952eec8eb933929') in 0.015507 seconds
+  Import took 0.020111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.459911 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Scripts/NavMeshSurface.cs
+  artifactKey: Guid(7a5ac11cc976e418e8d13136b07e1f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Scripts/NavMeshSurface.cs using Guid(7a5ac11cc976e418e8d13136b07e1f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e72529cba55918dea37df2b779200bc') in 0.006600 seconds
+  Import took 0.009041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.531709 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.014524 seconds
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.105009 seconds.
+  path: Assets/Water.mat
+  artifactKey: Guid(08942ec6959e9554695fca54cdbbcbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water.mat using Guid(08942ec6959e9554695fca54cdbbcbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358ac4d3c2fbb82b1566c30c224f1ad1') in 0.025775 seconds
+  Import took 0.028626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 293.196334 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef
+  artifactKey: Guid(86c9d8e67265f41469be06142c397d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef using Guid(86c9d8e67265f41469be06142c397d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbbcb77f61adabd57d52fad02863410') in 0.022627 seconds
+  Import took 0.029490 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000622 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.721 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1104 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.8 MB.
+System memory in use after: 60.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1591.
+Total: 1.649900 ms (FindLiveObjects: 0.121400 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.412300 ms  DeleteObjects: 0.084000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 957.915891 seconds.
+  path: Assets/Grass.mat
+  artifactKey: Guid(dd80850b6d59263468f00180a874b3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass.mat using Guid(dd80850b6d59263468f00180a874b3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82406d9bee3825d2639023928a92ee1b') in 0.060133 seconds
+  Import took 0.062408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.189420 seconds.
+  path: Assets/Scripts/AgentSmith.cs
+  artifactKey: Guid(bf42f9bcb158d4e4a906520d16a0d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AgentSmith.cs using Guid(bf42f9bcb158d4e4a906520d16a0d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf656eb9a92459468d6c36593063c30') in 0.013798 seconds
+  Import took 0.016421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.700002 seconds.
+  path: Assets/NavMesh/Gizmos/NavMeshLink Icon.png
+  artifactKey: Guid(92f4afa3e25264f5b964937ccea49ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/Gizmos/NavMeshLink Icon.png using Guid(92f4afa3e25264f5b964937ccea49ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372af0b460671da6643f066093041baf') in 0.021066 seconds
+  Import took 0.023688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/NavMesh/Gizmos/NavMeshSurface Icon.png
+  artifactKey: Guid(e4f97225bcfb64760a1c81f460837f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/Gizmos/NavMeshSurface Icon.png using Guid(e4f97225bcfb64760a1c81f460837f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52948976e4a4667ab5530e179b33b40b') in 0.016690 seconds
+  Import took 0.018519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/NavMesh/Gizmos/NavMeshModifierVolume Icon.png
+  artifactKey: Guid(cc7b9475dbddf4f9088d327d6e10ab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/Gizmos/NavMeshModifierVolume Icon.png using Guid(cc7b9475dbddf4f9088d327d6e10ab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe167af90f881fe6e642210a813ed6b') in 0.023435 seconds
+  Import took 0.025815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 329.567677 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Editor
+  artifactKey: Guid(63b588f3892bb4b5eb73ad3d2791e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Editor using Guid(63b588f3892bb4b5eb73ad3d2791e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2698953e070b9fadc5e154d4c5cd65') in 0.013105 seconds
+  Import took 0.015019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.313266 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs
+  artifactKey: Guid(77fba670b979046f18d52d751e0d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs using Guid(77fba670b979046f18d52d751e0d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1343c85adcdf4524bf63a65a932ae03') in 0.016965 seconds
+  Import took 0.020357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001604 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs
+  artifactKey: Guid(77fba670b979046f18d52d751e0d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs using Guid(77fba670b979046f18d52d751e0d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1343c85adcdf4524bf63a65a932ae03') in 0.008038 seconds
+  Import took 0.010707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.505479 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshModifierEditor.cs
+  artifactKey: Guid(6fa04b4743e3947eba4d7b9e5832ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshModifierEditor.cs using Guid(6fa04b4743e3947eba4d7b9e5832ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da494100f409bb761c8a25bec639142b') in 0.010042 seconds
+  Import took 0.012726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshModifierEditor.cs
+  artifactKey: Guid(6fa04b4743e3947eba4d7b9e5832ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshModifierEditor.cs using Guid(6fa04b4743e3947eba4d7b9e5832ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da494100f409bb761c8a25bec639142b') in 0.003182 seconds
+  Import took 0.005530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.978759 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshAssetManager.cs
+  artifactKey: Guid(178d8366aa1616849b91b66285c51454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshAssetManager.cs using Guid(178d8366aa1616849b91b66285c51454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8444ae137226003b90600d9d283da849') in 0.008178 seconds
+  Import took 0.010641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.204731 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshLinkEditor.cs
+  artifactKey: Guid(ece1e865d1ad84587872fe8580ab5a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshLinkEditor.cs using Guid(ece1e865d1ad84587872fe8580ab5a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe04fec4ac6bea2978a884945b87d825') in 0.007277 seconds
+  Import took 0.012655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.720566 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs
+  artifactKey: Guid(c0f3bef2a67ae4e139538afec3e59b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs using Guid(c0f3bef2a67ae4e139538afec3e59b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49adf2aa47fd549f27d88fb4f7127c8') in 0.024925 seconds
+  Import took 0.028248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.277121 seconds.
+  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs
+  artifactKey: Guid(1c32167dbf3314852b6006a288eb449b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs using Guid(1c32167dbf3314852b6006a288eb449b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1691649006db1eef9475f0dcd1a545de') in 0.017674 seconds
+  Import took 0.023247 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000610 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
@@ -59,192 +374,192 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.795 seconds
+- Completed reload, in  0.741 seconds
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.6 MB.
-System memory in use after: 56.6 MB.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.0 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1540.
-Total: 1.752200 ms (FindLiveObjects: 0.117000 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.491000 ms  DeleteObjects: 0.106500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.007394 seconds
-  Import took 0.009172 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1597.
+Total: 2.004000 ms (FindLiveObjects: 0.135500 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.782400 ms  DeleteObjects: 0.048600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.027066 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.004898 seconds
-  Import took 0.007240 seconds .
+  Time since last request: 552.886108 seconds.
+  path: Assets/Scripts/WayPoint.cs
+  artifactKey: Guid(7ca76c21604c29040a7bd0b6c0dc8eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WayPoint.cs using Guid(7ca76c21604c29040a7bd0b6c0dc8eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fd4d2b8dfd1127577173b0c6463baa') in 0.012508 seconds
+  Import took 0.014421 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.217284 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(647e5fcfe5d4be24b968beb1fa7d325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(647e5fcfe5d4be24b968beb1fa7d325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834b4a7df65cc74c8200c7de049a19a8') in 0.009037 seconds
-  Import took 0.010733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 321.229426 seconds.
-  path: Assets/NavMesh
-  artifactKey: Guid(31ad4df2c32876b4b8496e72b0743f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh using Guid(31ad4df2c32876b4b8496e72b0743f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e343816157163cfae102058caaaa0a70') in 0.012747 seconds
-  Import took 0.015405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.080442 seconds.
-  path: Assets/NavMesh/Gizmos
-  artifactKey: Guid(93b9715f5a4bf471c8154f6cbab7e94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/Gizmos using Guid(93b9715f5a4bf471c8154f6cbab7e94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404b32a4caa07f7c10349a6507215d9d') in 0.013427 seconds
-  Import took 0.015686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040633 seconds.
-  path: Assets/NavMesh/Gizmos/NavMeshLink Icon.png
-  artifactKey: Guid(92f4afa3e25264f5b964937ccea49ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/Gizmos/NavMeshLink Icon.png using Guid(92f4afa3e25264f5b964937ccea49ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00cf936e1868ca1c011828471ea851b') in 0.103148 seconds
-  Import took 0.105741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/NavMesh/Gizmos/NavMeshSurface Icon.png
-  artifactKey: Guid(e4f97225bcfb64760a1c81f460837f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/Gizmos/NavMeshSurface Icon.png using Guid(e4f97225bcfb64760a1c81f460837f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8ddb2402ed7f57a03660099f680ea9') in 0.017140 seconds
-  Import took 0.018997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/NavMesh/Gizmos/NavMeshModifierVolume Icon.png
-  artifactKey: Guid(cc7b9475dbddf4f9088d327d6e10ab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/Gizmos/NavMeshModifierVolume Icon.png using Guid(cc7b9475dbddf4f9088d327d6e10ab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd8280c2492f5a3c0c931992425dd79') in 0.015869 seconds
-  Import took 0.017726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.985824 seconds.
-  path: Assets/NavMesh/NavMeshComponents
-  artifactKey: Guid(90490f1de0cc846679dcec6f99663653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/NavMeshComponents using Guid(90490f1de0cc846679dcec6f99663653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6fac0123140aabf8ea6f5c930e75da') in 0.014551 seconds
-  Import took 0.016586 seconds .
+  Time since last request: 0.001834 seconds.
+  path: Assets/Scripts/WayPoint.cs
+  artifactKey: Guid(7ca76c21604c29040a7bd0b6c0dc8eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WayPoint.cs using Guid(7ca76c21604c29040a7bd0b6c0dc8eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fd4d2b8dfd1127577173b0c6463baa') in 0.003878 seconds
+  Import took 0.006597 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000518 seconds.
+Registered in 0.000677 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
+- Completed reload, in  0.696 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.9 MB.
-System memory in use after: 57.0 MB.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.1 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1554.
-Total: 1.488000 ms (FindLiveObjects: 0.160200 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.240600 ms  DeleteObjects: 0.050200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.083652 seconds.
-  path: Assets/NavMesh/NavMeshComponents/Scripts/NavMeshComponents.asmdef
-  artifactKey: Guid(8c4dd21966739024fbd72155091d199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/NavMeshComponents/Scripts/NavMeshComponents.asmdef using Guid(8c4dd21966739024fbd72155091d199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b5623d416a729ecaaa9fb28fce8682') in 0.029989 seconds
-  Import took 0.032420 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1599.
+Total: 1.591200 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.100900 ms MarkObjects: 1.267700 ms  DeleteObjects: 0.049600 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.005967 seconds.
-  path: Assets/NavMesh/NavMeshComponents/Scripts/NavMeshLink.cs
-  artifactKey: Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/NavMeshComponents/Scripts/NavMeshLink.cs using Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9947f633ce3b9f95a79435be2991e622') in 0.022191 seconds
-  Import took 0.024127 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000551 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1601.
+Total: 1.642600 ms (FindLiveObjects: 0.151900 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.369500 ms  DeleteObjects: 0.080500 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.019652 seconds.
-  path: Assets/NavMesh/NavMeshComponents/Scripts/NavMeshLink.cs
-  artifactKey: Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/NavMeshComponents/Scripts/NavMeshLink.cs using Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9947f633ce3b9f95a79435be2991e622') in 0.010819 seconds
-  Import took 0.014767 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.712 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1603.
+Total: 1.675500 ms (FindLiveObjects: 0.133400 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.423700 ms  DeleteObjects: 0.072900 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 9.845460 seconds.
-  path: Assets/NavMesh/NavMeshComponents/Scripts
-  artifactKey: Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/NavMeshComponents/Scripts using Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6cc29b8569c9dba5c13357ab3fd27a') in 0.008623 seconds
-  Import took 0.010599 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.715 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1605.
+Total: 1.430500 ms (FindLiveObjects: 0.118700 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.202900 ms  DeleteObjects: 0.073100 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/NavMesh/NavMeshComponents/Scripts
-  artifactKey: Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/NavMeshComponents/Scripts using Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6cc29b8569c9dba5c13357ab3fd27a') in 0.007199 seconds
-  Import took 0.009525 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1607.
+Total: 1.442400 ms (FindLiveObjects: 0.124000 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.238800 ms  DeleteObjects: 0.044400 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 2.389674 seconds.
-  path: Assets/NavMesh/NavMeshComponents/Editor
-  artifactKey: Guid(63b588f3892bb4b5eb73ad3d2791e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/NavMeshComponents/Editor using Guid(63b588f3892bb4b5eb73ad3d2791e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f7c49c61d2d3cf3ba12d39cf6bf892') in 0.009579 seconds
-  Import took 0.014108 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1609.
+Total: 1.707300 ms (FindLiveObjects: 0.231100 ms CreateObjectMapping: 0.062800 ms MarkObjects: 1.330000 ms  DeleteObjects: 0.082000 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.078379 seconds.
-  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef
-  artifactKey: Guid(86c9d8e67265f41469be06142c397d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef using Guid(86c9d8e67265f41469be06142c397d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279b4fd1695f7207e6b610ba0ab7d385') in 0.006438 seconds
-  Import took 0.011083 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 2.084360 seconds.
-  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs
-  artifactKey: Guid(77fba670b979046f18d52d751e0d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs using Guid(77fba670b979046f18d52d751e0d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37d4e6b37c931813fcddb8aa9076dbc') in 0.006567 seconds
-  Import took 0.008679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001322 seconds.
-  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs
-  artifactKey: Guid(77fba670b979046f18d52d751e0d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs using Guid(77fba670b979046f18d52d751e0d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37d4e6b37c931813fcddb8aa9076dbc') in 0.002532 seconds
-  Import took 0.004337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.527332 seconds.
-  path: Assets/NavMesh/NavMeshComponents/Editor/NavMeshLinkEditor.cs
-  artifactKey: Guid(ece1e865d1ad84587872fe8580ab5a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMesh/NavMeshComponents/Editor/NavMeshLinkEditor.cs using Guid(ece1e865d1ad84587872fe8580ab5a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c782bb53b18595c6fda632c60c456b54') in 0.006834 seconds
-  Import took 0.011196 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 1.425100 ms (FindLiveObjects: 0.113700 ms CreateObjectMapping: 0.026700 ms MarkObjects: 1.225000 ms  DeleteObjects: 0.058800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
