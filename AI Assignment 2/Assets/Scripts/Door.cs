@@ -5,7 +5,7 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     //adjust this to change speed
-    float speed = 5f;
+    float speed = 1f;
     //adjust this to change how high it goes
     float height = 2f;
     [SerializeField] private float offset = 1;
