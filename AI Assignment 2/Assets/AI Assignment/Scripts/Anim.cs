@@ -17,10 +17,12 @@ public class Anim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Set walk animation
         anim.SetTrigger("Walk");
 
         if(Mathf.Approximately(agent.velocity.magnitude, Mathf.Epsilon))
         {
+            // Set standing still animation
             anim.SetTrigger("Idle");
         }
     }
