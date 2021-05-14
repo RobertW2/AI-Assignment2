@@ -1,17 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Animations;
+using UnityEngine.AI;
 public class Anim : MonoBehaviour
 {
     public Animator anim;
-    Rigidbody rb;
+    private NavMeshAgent agent;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = gameObject.GetComponentInChildren<Animator>();
-        rb = gameObject.GetComponent<Rigidbody>();
+        agent = gameObject.GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class Anim : MonoBehaviour
     {
         anim.SetTrigger("Walk");
 
-        if(rb.velocity.x == 0 && rb.velocity.y == 0)
+        if(Mathf.Approximately(agent.velocity.magnitude, Mathf.Epsilon))
         {
             anim.SetTrigger("Idle");
         }
